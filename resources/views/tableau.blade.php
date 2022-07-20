@@ -31,7 +31,10 @@
                             <a href="/" style="background-color: rgba(245, 12, 148, 0.2);"> Ajouter</a>
                         </div>
 
-                        <h1>image</h1>
+                        {{-- <h1 background image:
+                            url("https://cdn.pixabay.com/photo/2017/04/19/11/35/diary-2241986_960_720.jpg") ;>image</h1>
+                        --}}
+
 
                         {{-- <table class="table table-bordered table-striped">
 

@@ -50,12 +50,31 @@
                     data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                     login
                 </button></a>
+            {{-- <a class="navbar-brand">
+                Styling a select menu </a>
+
+            <style>
+                select {
+                    width: 100%;
+                    padding: 16px 20px;
+                    border: none;
+                    border-radius: 4px;
+                    background-color: #f1f1f1;
+                }
+            </style>
+            <form>
+                <select id="organize" name="organize">
+                    <option value="au">Bloc note</option>
+                    <option value="ca">Agenda</option>
+                    <option value="usa">Calendrier</option>
+                </select>
+            </form> --}}
 
 
 
         </div>
         </div>
-
+        {{--
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -148,7 +167,11 @@
                     <button class="btn bg-danger hover-zoom" type="submit">
                         Recherche
                     </button>
-                </form>
+                </form> --}}
+
+
+
+
             </div>
         </div>
         </div>

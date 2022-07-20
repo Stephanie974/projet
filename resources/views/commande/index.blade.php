@@ -32,11 +32,11 @@
 
     <tr>
 
-        <th>No</th>
+        <th>Numéro</th>
         <th>Nom</th>
         <th>Prénom</th>
-        <th>Company</th>
-        <th>fortune</th>
+        <th>Produit</th>
+        <th>Prix</th>
         <th>Actions</th>
 
     </tr>
