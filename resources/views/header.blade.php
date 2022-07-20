@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/ico" href="../img/index.png" />
-    <title>Header</title>
+    <link rel="icon" type="image/ico" href="../../img/index.png" />
+    <title>Organisator</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
@@ -20,22 +20,37 @@
     <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba(245, 12, 148, 0.2);">
 
         <div class="container-content flex-row">
+
+
+            <a class="navbar-brand" href="/tableau">
+                <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Accueil
+                </button></a>
+
+            <a class="navbar-brand" href="/commande/create">
+                <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    commande
+                </button></a>
+
             <a class="navbar-brand" href="/test">
                 <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                     Enregistrement
                 </button></a>
-            <a class="navbar-brand" href="/tableau">
 
+            <a class="navbar-brand" href="/">
                 <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                     Tableau
                 </button></a>
-            {{-- <a class="navbar-brand" href='tableau.blade.php'> --}}
+            <a class="navbar-brand" href="/app">
                 <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                    Visualiser
+                    login
                 </button></a>
+
 
 
         </div>
@@ -138,6 +153,7 @@
         </div>
         </div>
     </nav>
+    {{--
 </body>
 
-</html>
+</html> --}}

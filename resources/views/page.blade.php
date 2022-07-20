@@ -1,3 +1,4 @@
+{{--
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -18,22 +19,21 @@
 @include('header')
 
 
-<html>
-@include('main')
-@extends('mon_template')
-
-{{-- <h1>ceci est ma page home</h1>
-<h2>ceci est la suite</h2> --}}
-
-
 
 <body>
+    @include('main')
+    @extends('mon_template')
+
+    <h1>ceci est ma page home</h1>
 
 
+
+
+    <a href="{{ url('/') }}" class="btn bg-danger hover-zoom">Retour</a>
+    @include('footer')
 </body>
-{{-- @include('welcome') --}}
 
 
 
-</html>
-@include('footer')
+
+</html> --}}
