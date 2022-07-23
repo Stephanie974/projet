@@ -30,24 +30,34 @@
                                     <img src="https://cdn.pixabay.com/photo/2017/04/19/11/35/diary-2241986_960_720.jpg"
                                         class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>AGENDA</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
+
+                                        <p>Pour tout organiser jour aprés jour. Cliquer ici!</p>
+                                        <a class="text-dark" href="agn">
+                                            <h5>AGENDA</h5>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
                                     <img src="https://cdn.pixabay.com/photo/2022/01/15/21/17/calendar-6940778_960_720.png"
                                         class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>CALENDRIER</h5>
-                                        <p>Some representative placeholder content for the second slide.</p>
+
+                                        <p>Pour voir d'un coup d'oeil le programme de l'année. Cliquer ici!</p>
+                                        <a class="text-dark" href="cal">
+                                            <h5>CALENDRIER</h5>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="https://cdn.pixabay.com/photo/2016/08/12/03/51/notebook-1587527_960_720.jpg"
                                         class="d-block w-100" alt="...">
                                     <div class="carousel-caption d-none d-md-block">
-                                        <h5>BLOC NOTE</h5>
-                                        <p>Some representative placeholder content for the third slide.</p>
+
+
+                                        <p>Pour prendre des notes et ne rien oublier. Cliquer ici!</p>
+                                        <a class="text-dark" href="bln">
+                                            <h5>BLOC NOTE</h5>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

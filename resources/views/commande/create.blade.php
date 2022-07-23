@@ -26,16 +26,16 @@
             @csrf
 
             <div class="form-group mb-3">
-                <label for="nom">Nom :</label>
+                <label for="nom">Nom du produit:</label>
                 <input type="text" class="form-control" id="nom" placeholder="Entrez un nom" name="nom">
             </div>
             <div class="form-group mb-3">
-                <label for="prenom">Prénom:</label>
+                <label for="prenom">Couleur:</label>
                 <input type="text" class="form-control" id="prenom" placeholder="Prenom" name="company">
 
             </div>
             <div class="form-group mb-3">
-                <label for="company">Company:</label>
+                <label for="company">Quantité:</label>
                 <input type="text" class="form-control" id="company" placeholder="Company" name="prenom">
 
             </div>

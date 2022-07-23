@@ -7,25 +7,25 @@
     <table class="table table-bordered">
 
         <tr>
-            <th>Nom:</th>
+            <th>Nom du produit :</th>
             <td>{{ $commande->nom }}</td>
         </tr>
         <tr>
 
-            <th>Prénom:</th>
+            <th>Couleur :</th>
             <td>{{ $commande->prenom }}</td>
 
         </tr>
         <tr>
 
-            <th>Company:</th>
+            <th>Quantité :</th>
             <td>{{ $commande->company }}</td>
 
         </tr>
 
         <tr>
 
-            <th>Fortune:</th>
+            <th>Prix :</th>
             <td>$ {{ $commande->fortune }}</td>
 
         </tr>

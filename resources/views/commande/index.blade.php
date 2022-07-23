@@ -31,9 +31,9 @@
             <tr>
 
                 <th>Numéro</th>
-                <th>Nom</th>
-                <th>Prénom</th>
-                <th>Produit</th>
+                <th>Nom du produit</th>
+                <th>Couleur</th>
+                <th>Quantité</th>
                 <th>Prix</th>
                 <th>Actions</th>
 
