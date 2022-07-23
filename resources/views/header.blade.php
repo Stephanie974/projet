@@ -17,166 +17,55 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba(245, 12, 148, 0.2);">
+    <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba(0, 83, 110);">
 
         <div class="container-content flex-row">
 
 
             <a class="navbar-brand" href="/tableau">
-                <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                    aria-controls="collapseWidthExample">
                     Accueil
                 </button></a>
 
             <a class="navbar-brand" href="/commande/create">
-                <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                    commande
+                <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                    aria-controls="collapseWidthExample">
+                    Creation de fiche produit
                 </button></a>
 
-            <a class="navbar-brand" href="/test">
-                <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                    Enregistrement
-                </button></a>
 
             <a class="navbar-brand" href="/">
-                <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                    Tableau
+                <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                    aria-controls="collapseWidthExample">
+                    Liste
                 </button></a>
-            <a class="navbar-brand" href="/app">
-                <button class="btn bg-danger hover-zoom" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                    login
-                </button></a>
-            {{-- <a class="navbar-brand">
-                Styling a select menu </a>
 
-            <style>
-                select {
-                    width: 100%;
-                    padding: 16px 20px;
-                    border: none;
-                    border-radius: 4px;
-                    background-color: #f1f1f1;
-                }
-            </style>
-            <form>
-                <select id="organize" name="organize">
-                    <option value="au">Bloc note</option>
-                    <option value="ca">Agenda</option>
-                    <option value="usa">Calendrier</option>
-                </select>
-            </form> --}}
+            <a class="navbar-brand" href="{{ route('login') }}">
 
+                <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                    aria-controls="collapseWidthExample">
+                    Se connecter
+                </button>
 
+                <a class="navbar-brand" href="{{ route('register') }}">
 
-        </div>
-        </div>
-        {{--
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                    Choisissez!
-                </h5>
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                    aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Calendrier
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li>
-                                <a class="dropdown-item" href="readvapnom.php">Recherche par nom</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readvapprixachat.php">Recherche par prix achat</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readvapprixvente.php">Recherche par prix vente</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readvaprefer.php">Recherche par réference</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readvapdescri.php">Recherche par description</a>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Agenda
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li>
-                                <a class="dropdown-item" href="readvapnom.php">Recherche par nom</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readvapprixachat.php">Recherche par prix achat</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readvapprixvente.php">Recherche par prix vente</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readvaprefer.php">Recherche par réference</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readvapdescri.php">Recherche par description</a>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Bloc note
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li>
-                                <a class="dropdown-item" href="readliqnom.php">Recherche par nom</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readliqprixachat.php">Recherche par prix achat</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readliqprixvente.php">Recherche par prix vente</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readliqrefer.php">Recherche par réference</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="readliqdescri.php">Recherche par description</a>
-                            </li>
-
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn bg-danger hover-zoom" type="submit">
-                        Recherche
+                    <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                        aria-controls="collapseWidthExample">
+                        S'inscrire
                     </button>
-                </form> --}}
 
+                    <a href="{{ url('tableau') }}" class="btn bg-danger hover-zoom">Retour</a>
 
+        </div>
+        </div>
 
-
-            </div>
+        </div>
         </div>
         </div>
     </nav>
-    {{--
-</body>
-
-</html> --}}

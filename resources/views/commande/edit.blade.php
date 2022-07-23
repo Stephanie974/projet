@@ -1,8 +1,6 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
+@section('content') --}}
 @include('header')
-
-@section('content')
-
 
 <h1>edit.blade.php</h1>
 
@@ -61,6 +59,6 @@
     <button type="submit" class="btn btn-primary">Enregistrer</button>
 
 </form>
-{{-- <a href="{{ url('/') }}" class="btn bg-danger hover-zoom">Retour</a> --}}
+
 @include('footer')
-@endsection
+{{-- @endsection --}}

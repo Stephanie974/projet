@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\CommandeController;
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,9 +35,9 @@ Route::get('/app', function () {
 });
 
 
-// Route::get('/', function () {
-//     return view('index');
-// });
+Route::get('/', function () {
+    return view('index');
+});
 
 
 
@@ -57,7 +57,5 @@ Route::controller(CommandeController::class)->group(function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

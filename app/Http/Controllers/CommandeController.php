@@ -14,8 +14,10 @@ class CommandeController extends Controller
 
     public function index()
     {
-
+        // dd("hello");
         $commandes = Commande::all();
+        // $commandes = [];
+        // dd($commandes);
         return view('commande.index', compact('commandes'));
     }
 

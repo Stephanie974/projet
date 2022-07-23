@@ -1,7 +1,6 @@
-@extends('layouts.app')
-
+{{-- @extends('layouts.app') --}}
 @include('header')
-@section('content')
+{{-- @section('content') --}}
 
 <h1>show.blade.php</h1>
 
@@ -33,6 +32,6 @@
     </tr>
 
 </table>
-{{-- <a href="{{ url('/tableau') }}" class="btn bg-danger hover-zoom">Retour</a> --}}
+
 @include('footer')
-@endsection
+{{-- @endsection --}}
