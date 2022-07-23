@@ -1,37 +1,35 @@
-{{-- @extends('layouts.app') --}}
 @include('header')
-{{-- @section('content') --}}
 
-<h1>show.blade.php</h1>
+<body style="background-color: rgba(171, 148, 126);">
+    <h1>show.blade.php</h1>
 
 
-<table class="table table-bordered">
+    <table class="table table-bordered">
 
-    <tr>
-        <th>Nom:</th>
-        <td>{{ $commande->nom }}</td>
-    </tr>
-    <tr>
+        <tr>
+            <th>Nom:</th>
+            <td>{{ $commande->nom }}</td>
+        </tr>
+        <tr>
 
-        <th>Prénom:</th>
-        <td>{{ $commande->prenom }}</td>
+            <th>Prénom:</th>
+            <td>{{ $commande->prenom }}</td>
 
-    </tr>
-    <tr>
+        </tr>
+        <tr>
 
-        <th>Company:</th>
-        <td>{{ $commande->company }}</td>
+            <th>Company:</th>
+            <td>{{ $commande->company }}</td>
 
-    </tr>
+        </tr>
 
-    <tr>
+        <tr>
 
-        <th>Fortune:</th>
-        <td>$ {{ $commande->fortune }}</td>
+            <th>Fortune:</th>
+            <td>$ {{ $commande->fortune }}</td>
 
-    </tr>
+        </tr>
 
-</table>
+    </table>
 
-@include('footer')
-{{-- @endsection --}}
+    @include('footer')

@@ -60,7 +60,8 @@
                         S'inscrire
                     </button>
 
-                    <a href="{{ url('tableau') }}" class="btn bg-danger hover-zoom">Retour</a>
+                    <a href="{{ url('tableau') }}" class="btn bg-info hover-zoom   justify-content-md-end">Retour</a>
+
 
         </div>
         </div>
