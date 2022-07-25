@@ -2,7 +2,7 @@
 @section('content') --}}
 @include('header')
 
-<body style="background-color: rgba(171, 148, 126);">
+<body style="background-color: rgba(134, 199, 237);">
     <h1>edit.blade.php</h1>
 
 
@@ -35,14 +35,14 @@
 
         <div class="form-group mb-3">
 
-            <label for="prenom">Prénom:</label>
+            <label for="prenom">Couleur:</label>
             <input type="text" class="form-control" id="prenom" placeholder="Entrer prenom" name="prenom"
                 value="{{ $commande->prenom }}">
         </div>
 
         <div class="form-group mb-3">
 
-            <label for="company">Company:</label>
+            <label for="company">Quantité:</label>
             <input type="text" class="form-control" id="company" placeholder="Entrer Company" name="company"
                 value="{{ $commande->company }}">
 
@@ -50,7 +50,7 @@
 
         <div class="form-group mb-3">
 
-            <label for="fortune">Fortune ($):</label>
+            <label for="fortune">Prix :</label>
             <input type="number" class="form-control" id="fortune" placeholder="fortune" name="fortune"
                 value="{{ $commande->fortune }}">
 

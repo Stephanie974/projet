@@ -1,6 +1,6 @@
 @include('header')
 
-<body style="background-color: rgba(171, 148, 126);">
+<body style="background-color: rgb(134, 199, 237);">
 
     <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">

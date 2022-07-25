@@ -1,10 +1,10 @@
 @include('header')
 
-<body style="background-color: rgba(171, 148, 126);">
+<body style="background-color: rgba(134, 199, 237);">
     <div>
 
 
-        <h1>create.blade.php</h1>
+        <h1>Création de fiche produit</h1>
 
 
         @if ($errors->any())
@@ -27,22 +27,23 @@
 
             <div class="form-group mb-3">
                 <label for="nom">Nom du produit:</label>
-                <input type="text" class="form-control" id="nom" placeholder="Entrez un nom" name="nom">
+                <input type="text" class="form-control" id="nom" placeholder="Entrez un nom de produit" name="nom">
             </div>
+
             <div class="form-group mb-3">
-                <label for="prenom">Couleur:</label>
-                <input type="text" class="form-control" id="prenom" placeholder="Prenom" name="company">
+                <label for="company">Couleur:</label>
+                <input type="text" class="form-control" id="company" placeholder="Entrez une couleur" name="prenom">
 
             </div>
             <div class="form-group mb-3">
-                <label for="company">Quantité:</label>
-                <input type="text" class="form-control" id="company" placeholder="Company" name="prenom">
+                <label for="prenom">Quantité:</label>
+                <input type="text" class="form-control" id="prenom" placeholder="Entrez une quantité" name="company">
 
             </div>
 
             <div class="form-group mb-3">
                 <label for="fortune">Prix:</label>
-                <input type="number" class="form-control" id="fortune" placeholder="fortune" name="fortune">
+                <input type="number" class="form-control" id="fortune" placeholder="Entrez un prix" name="fortune">
             </div>
 
 

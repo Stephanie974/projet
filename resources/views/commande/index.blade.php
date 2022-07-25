@@ -1,12 +1,12 @@
 @include('header')
 
-<body style="background-color: rgba(171, 148, 126);">
+<body style="background-color: rgba(134, 199, 237);">
     <div>
         <div class="row">
 
             <div class="col-lg-11">
 
-                <h2>index.blade.php</h2>
+                <h2>Liste des produits disponible</h2>
 
             </div>
 
@@ -34,7 +34,7 @@
                 <th>Nom du produit</th>
                 <th>Couleur</th>
                 <th>Quantité</th>
-                <th>Prix</th>
+                <th>Prix en euros</th>
                 <th>Actions</th>
 
             </tr>
@@ -44,8 +44,9 @@
             <tr>
                 <td>{{ $index }}</td>
                 <td>{{ $commande->nom }}</td>
-                <td>{{ $commande->prenom }}</td>
+
                 <td>{{ $commande->company }}</td>
+                <td>{{ $commande->prenom }}</td>
                 <td>{{ $commande->fortune }}</td>
                 <td>
 

@@ -18,7 +18,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba(0, 83, 110);">
+    <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba(24, 50, 178);">
 
         <div class="container-content flex-row">
 

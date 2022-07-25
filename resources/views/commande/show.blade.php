@@ -1,6 +1,6 @@
 @include('header')
 
-<body style="background-color: rgba(171, 148, 126);">
+<body style="background-color: rgba(134, 199, 237);">
     <h1>show.blade.php</h1>
 
 
