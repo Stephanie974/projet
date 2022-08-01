@@ -19,9 +19,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-// Route::get('/', function () {
-//     return view('page');
-// });
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 Route::get('/test', function () {
     return view('test');
@@ -30,6 +30,8 @@ Route::get('/test', function () {
 Route::get('/tableau', function () {
     return view('tableau');
 });
+
+
 Route::get('/app', function () {
     return view('layouts/app');
 });
@@ -37,6 +39,16 @@ Route::get('/app', function () {
 
 Route::get('/', function () {
     return view('index');
+});
+
+Route::get('/agn', function () {
+    return view('agn');
+});
+Route::get('/cal', function () {
+    return view('cal');
+});
+Route::get('/bln', function () {
+    return view('bln');
 });
 
 

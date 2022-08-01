@@ -23,6 +23,7 @@
         <div class="container-content flex-row">
 
 
+            {{-- @if (Auth::user() && Auth::user()->type = 1) --}}
 
             <a class="navbar-brand" href="/tableau">
                 <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
@@ -30,14 +31,15 @@
                     aria-controls="collapseWidthExample">
                     Accueil
                 </button></a>
-
+            {{-- @endif --}}
+            {{-- @if (Auth::user() && Auth::user()->type = 1) --}}
             <a class="navbar-brand" href="/commande/create">
                 <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
                     data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
                     aria-controls="collapseWidthExample">
                     Creation de fiche produit
                 </button></a>
-
+            {{-- @endif --}}
 
             <a class="navbar-brand" href="/">
                 <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
@@ -63,7 +65,12 @@
                     </button>
 
                     <a href="{{ url('tableau') }}" class="btn bg-info hover-zoom   justify-content-md-end">Retour</a>
-
+                    <a class="navbar-brand" href="/contact">
+                        <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
+                            aria-controls="collapseWidthExample">
+                            Contact
+                        </button></a>
 
         </div>
         </div>
