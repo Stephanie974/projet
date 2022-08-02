@@ -1,6 +1,6 @@
 @include('header')
 
-<body style="background-color: rgba(171, 148, 126);">
+<body style="background-color: rgb(134, 199, 237);">
     @guest
     @if (Route::has('login'))
 

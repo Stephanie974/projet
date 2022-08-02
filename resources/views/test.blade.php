@@ -1,9 +1,9 @@
-@include('header')
+{{-- @include('header')
 
 
 <body>
-    <h1>Super THom</h1>
+    <h1>Laravel test</h1>
 </body>
 
 
-@include('footer')
+@include('footer') --}}

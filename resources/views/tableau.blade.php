@@ -57,7 +57,7 @@
 
                                         <p>Pour prendre des notes et ne rien oublier. Cliquer ici!</p>
                                         <a class="text-dark" href="bln">
-                                            <h5>BLOC NOTE</h5>
+                                            <h5>BLOC NOTES</h5>
                                         </a>
                                     </div>
                                 </div>

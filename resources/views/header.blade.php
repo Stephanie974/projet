@@ -18,7 +18,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba(24, 50, 178);">
+    <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: rgba( 42, 80, 212);">
 
         <div class="container-content flex-row">
 
@@ -26,7 +26,7 @@
             {{-- @if (Auth::user() && Auth::user()->type = 1) --}}
 
             <a class="navbar-brand" href="/tableau">
-                <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                <button class="btn hover-zoom" style="background-color: rgba(221, 202, 125);" type="button"
                     data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
                     aria-controls="collapseWidthExample">
                     Accueil
@@ -34,7 +34,7 @@
             {{-- @endif --}}
             {{-- @if (Auth::user() && Auth::user()->type = 1) --}}
             <a class="navbar-brand" href="/commande/create">
-                <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                <button class="btn hover-zoom" style="background-color: rgba(221, 202, 125);" type="button"
                     data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
                     aria-controls="collapseWidthExample">
                     Creation de fiche produit
@@ -42,7 +42,7 @@
             {{-- @endif --}}
 
             <a class="navbar-brand" href="/">
-                <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                <button class="btn hover-zoom" style="background-color: rgba(221, 202, 125);" type="button"
                     data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
                     aria-controls="collapseWidthExample">
                     Liste
@@ -50,7 +50,7 @@
 
             <a class="navbar-brand" href="{{ route('login') }}">
 
-                <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                <button class="btn hover-zoom" style="background-color: rgba(221, 202, 125);" type="button"
                     data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
                     aria-controls="collapseWidthExample">
                     Se connecter
@@ -58,19 +58,21 @@
 
                 <a class="navbar-brand" href="{{ route('register') }}">
 
-                    <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                    <button class="btn hover-zoom" style="background-color: rgba(221, 202, 125);" type="button"
                         data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
                         aria-controls="collapseWidthExample">
                         S'inscrire
                     </button>
 
-                    <a href="{{ url('tableau') }}" class="btn bg-info hover-zoom   justify-content-md-end">Retour</a>
+
                     <a class="navbar-brand" href="/contact">
-                        <button class="btn hover-zoom" style="background-color: rgba(138, 121, 104);" type="button"
+                        <button class="btn hover-zoom" style="background-color: rgba(221, 202, 125);" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false"
                             aria-controls="collapseWidthExample">
                             Contact
                         </button></a>
+                    <a href="{{ url('tableau') }}" class="btn bg-info hover-zoom"
+                        style="background-color: rgba(221, 202, 125);" justify-content-md-end">Retour</a>
 
         </div>
         </div>
